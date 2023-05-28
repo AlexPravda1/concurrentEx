@@ -13,8 +13,7 @@ public class MainNoEx {
         arr.add(3);
         arr.add(4);
 
-        //Modifications once the iteration is done, or
-        //Implement the concept of the synchronized block or method
+        //Modify once the iteration is done
         try {
             System.out.println("ArrayList: ");
             Iterator<Integer> iter = arr.iterator();
