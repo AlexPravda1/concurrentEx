@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class B_MainNoEx {
+public class B_ConcurrentFixed {
     // if while iterating over the collection, we directly try to modify that collection,
     // then the given fail-fast iterator will throw this ConcurrentModificationException.
     public static void main(String[] args) {

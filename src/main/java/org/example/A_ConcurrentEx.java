@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 
-public class A_Main {
+public class A_ConcurrentEx {
     // if while iterating over the collection, we directly try to modify that collection,
     // then the given fail-fast iterator will throw this ConcurrentModificationException.
     public static void main(String[] args) {
